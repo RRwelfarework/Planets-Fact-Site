@@ -66,9 +66,9 @@
     "id": "mars",
     "name": "Mars",
     "images": {
-      "overview": "MA1.png",
-      "structure": "MA2.png",
-      "geology": "MA3.png"
+      "overview": "Ma1.png",
+      "structure": "Ma2.png",
+      "geology": "Ma3.png"
     },
     "description": {
       "overview": "Mars is a dusty, cold, desert world with a very thin atmosphere. It is known as the Red Planet.",
@@ -152,7 +152,7 @@
     "images": {
       "overview": "N1.png",
       "structure": "N2.png",
-      "geology": "N3.png"
+      "geology": "n3.png"
     },
     "description": {
       "overview": "Neptune is the farthest known planet. It has strong winds, dark storms, and a deep blue color.",
