@@ -1,0 +1,170 @@
+[
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "images": {
+      "overview": "M1.png",
+      "structure": "M2.png",
+      "geology": "M3.png"
+    },
+    "description": {
+      "overview": "Mercury is the smallest planet and closest to the Sun. It’s only slightly larger than Earth's Moon.",
+      "structure": "Mercury has a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core.",
+      "geology": "Mercury's surface is heavily cratered and resembles Earth's Moon, indicating it has been geologically inactive for billions of years."
+    },
+    "facts": {
+      "rotation": "58.6 days",
+      "revolution": "88 days",
+      "radius": "2,439.7 km",
+      "temperature": "167°C"
+    },
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+  },
+  {
+    "id": "venus",
+    "name": "Venus",
+    "images": {
+      "overview": "V1.png",
+      "structure": "V2.png",
+      "geology": "V3.png"
+    },
+    "description": {
+      "overview": "Venus is the second planet from the Sun and is similar in structure to Earth but slightly smaller and much hotter.",
+      "structure": "It has a central iron core and a rocky mantle, similar to the composition of Earth.",
+      "geology": "The surface is mostly smooth with volcanic plains and large highland regions."
+    },
+    "facts": {
+      "rotation": "243 days",
+      "revolution": "225 days",
+      "radius": "6,051.8 km",
+      "temperature": "464°C"
+    },
+    "source": "https://en.wikipedia.org/wiki/Venus"
+  },
+  {
+    "id": "earth",
+    "name": "Earth",
+    "images": {
+      "overview": "E1.png",
+      "structure": "E2.png",
+      "geology": "E3.png"
+    },
+    "description": {
+      "overview": "Earth is the third planet from the Sun and the only known place with life. It has oceans, atmosphere, and diverse ecosystems.",
+      "structure": "Earth has a solid inner core, liquid outer core, mantle, and crust composed of tectonic plates.",
+      "geology": "The surface includes continents, mountains, valleys, and ocean floors with tectonic activity."
+    },
+    "facts": {
+      "rotation": "0.99 days",
+      "revolution": "365.26 days",
+      "radius": "6,371 km",
+      "temperature": "16°C"
+    },
+    "source": "https://en.wikipedia.org/wiki/Earth"
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "images": {
+      "overview": "MA1.png",
+      "structure": "MA2.png",
+      "geology": "MA3.png"
+    },
+    "description": {
+      "overview": "Mars is a dusty, cold, desert world with a very thin atmosphere. It is known as the Red Planet.",
+      "structure": "Mars has a core made of iron, nickel, and sulfur. The mantle is made of silicate rock, and it has a thin crust.",
+      "geology": "It features volcanoes, large valleys, polar ice caps, and dry riverbeds indicating past water flow."
+    },
+    "facts": {
+      "rotation": "1.03 days",
+      "revolution": "687 days",
+      "radius": "3,389.5 km",
+      "temperature": "-63°C"
+    },
+    "source": "https://en.wikipedia.org/wiki/Mars"
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "images": {
+      "overview": "J1.png",
+      "structure": "J2.png",
+      "geology": "J3.png"
+    },
+    "description": {
+      "overview": "Jupiter is the largest planet in the Solar System and is known for its Great Red Spot and fast rotation.",
+      "structure": "It likely has a dense core surrounded by a layer of metallic hydrogen, with a gaseous outer layer.",
+      "geology": "Its atmosphere features cloud bands, storms, and extreme pressure differences."
+    },
+    "facts": {
+      "rotation": "0.41 days",
+      "revolution": "11.86 years",
+      "radius": "69,911 km",
+      "temperature": "-108°C"
+    },
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+  },
+  {
+    "id": "saturn",
+    "name": "Saturn",
+    "images": {
+      "overview": "S1.png",
+      "structure": "S2.png",
+      "geology": "S3.png"
+    },
+    "description": {
+      "overview": "Saturn is known for its prominent ring system. It's a gas giant composed mostly of hydrogen and helium.",
+      "structure": "It has a small, dense core surrounded by layers of metallic hydrogen and helium.",
+      "geology": "The atmosphere is divided into bands and shows signs of fast-moving storms."
+    },
+    "facts": {
+      "rotation": "0.45 days",
+      "revolution": "29.5 years",
+      "radius": "58,232 km",
+      "temperature": "-139°C"
+    },
+    "source": "https://en.wikipedia.org/wiki/Saturn"
+  },
+  {
+    "id": "uranus",
+    "name": "Uranus",
+    "images": {
+      "overview": "U1.png",
+      "structure": "U2.png",
+      "geology": "U3.png"
+    },
+    "description": {
+      "overview": "Uranus is an ice giant with a blue color due to methane in its atmosphere. It rotates on its side.",
+      "structure": "It has an icy core and mantle surrounded by a hydrogen-rich atmosphere.",
+      "geology": "The surface is fluid and cloudy with extreme seasonal variation."
+    },
+    "facts": {
+      "rotation": "0.72 days",
+      "revolution": "84 years",
+      "radius": "25,362 km",
+      "temperature": "-195°C"
+    },
+    "source": "https://en.wikipedia.org/wiki/Uranus"
+  },
+  {
+    "id": "neptune",
+    "name": "Neptune",
+    "images": {
+      "overview": "N1.png",
+      "structure": "N2.png",
+      "geology": "N3.png"
+    },
+    "description": {
+      "overview": "Neptune is the farthest known planet. It has strong winds, dark storms, and a deep blue color.",
+      "structure": "Its structure includes a small rocky core, icy mantle, and thick gaseous envelope.",
+      "geology": "The atmosphere is dynamic with huge storms, high-speed winds, and methane clouds."
+    },
+    "facts": {
+      "rotation": "0.67 days",
+      "revolution": "165 years",
+      "radius": "24,622 km",
+      "temperature": "-201°C"
+    },
+    "source": "https://en.wikipedia.org/wiki/Neptune"
+  }
+]

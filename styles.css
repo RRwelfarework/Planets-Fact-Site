@@ -1,0 +1,258 @@
+/* RESET & BASE */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background 0.4s, color 0.4s;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* THEME SYSTEM */
+:root {
+  --bg: #0b0d17;
+  --text: #ffffff;
+  --accent: #ffb703;
+  --nav-hover: rgba(255, 255, 255, 0.1);
+  --fact-bg: rgba(255, 255, 255, 0.08);
+  --border: #444;
+}
+
+[data-theme="light"] {
+  --bg: #f9f9f9;
+  --text: #111111;
+  --accent: #0077ff;
+  --nav-hover: rgba(0, 0, 0, 0.05);
+  --fact-bg: rgba(0, 0, 0, 0.04);
+  --border: #ccc;
+}
+
+/* CONTAINERS */
+.container {
+  max-width: 1200px;
+  padding: 1rem 2rem;
+  margin: auto;
+}
+
+/* HEADER */
+.site-header {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+  background-color: transparent;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* NAVIGATION */
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nav-list a {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.nav-list a.active,
+.nav-list a:hover {
+  background-color: var(--nav-hover);
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--text);
+}
+
+/* LOADER */
+.loader {
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* PLANET SECTION */
+.planet-header {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0 2rem;
+}
+
+.planet-img {
+  width: 260px;
+  height: 260px;
+  object-fit: contain;
+  animation: fadeIn 0.6s ease-in;
+}
+
+.planet-name {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.planet-content {
+  max-width: 500px;
+}
+
+.planet-content p {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+.planet-content a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin: 1rem 0;
+}
+
+.tab {
+  background: none;
+  border: 1px solid var(--border);
+  padding: 0.6rem 1rem;
+  text-align: left;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background 0.3s ease;
+  color: var(--text);
+}
+
+.tab.active {
+  background-color: var(--nav-hover);
+  border-left: 4px solid var(--accent);
+}
+
+/* FACT BOXES */
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 3rem 0;
+}
+
+.fact-box {
+  background-color: var(--fact-bg);
+  border: 1px solid var(--border);
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.fact-box strong {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  margin-bottom: 0.4rem;
+  color: var(--accent);
+}
+
+.fact-box span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* FOOTER */
+.site-footer {
+  border-top: 1px solid var(--border);
+  text-align: center;
+  font-size: 0.85rem;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  color: var(--text);
+}
+
+.site-footer a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .planet-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tabs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tab {
+    flex: 1 1 30%;
+    text-align: center;
+  }
+
+  .planet-img {
+    width: 200px;
+    height: 200px;
+  }
+}

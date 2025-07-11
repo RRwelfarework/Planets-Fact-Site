@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Planets Fact Site</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="app">
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <h1 class="logo">THE PLANETS</h1>
+      
+      <!-- Navigation for 8 planets -->
+      <nav aria-label="Main Planet Navigation">
+        <ul class="nav-list" id="planet-nav">
+          <!-- Dynamically inserted by app.js -->
+        </ul>
+      </nav>
+
+      <!-- Dark/Light Theme Toggle -->
+      <button id="theme-toggle" aria-label="Toggle Dark/Light Theme">🌓</button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content" class="container" aria-live="polite">
+    <div id="loader" class="loader">Loading planet data...</div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer container">
+    <p>🌌 Source: <a href="https://en.wikipedia.org/wiki/Solar_System" target="_blank" rel="noopener noreferrer">Wikipedia</a></p>
+    <p>© <span id="year"></span> • Built by Rishabh Rathore</p>
+  </footer>
+
+  <!-- JavaScript Logic -->
+  <script src="app.js" defer></script>
+</body>
+</html>
